@@ -120,17 +120,14 @@
     <!-- HERO SECTION -->
     <header class="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
         <!-- Video Background -->
-        <div class="absolute inset-0 bg-zinc-900">
-           <video 
-             autoplay 
-             loop 
-             muted 
-             playsinline
-             poster="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&q=80&w=2000"
-             class="absolute w-full h-full object-cover opacity-60"
-           >
-             <source src="https://cdn.coverr.co/videos/coverr-a-beautiful-swimming-pool-4009/1080p.mp4" type="video/mp4" />
-           </video>
+        <div class="absolute inset-0 bg-zinc-900 pointer-events-none overflow-hidden">
+           <iframe 
+             src="https://player.vimeo.com/video/1196025956?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1"
+             class="absolute top-1/2 left-1/2 w-[100vw] h-[56.25vw] min-h-[100vh] min-w-[177.77vh] -translate-x-1/2 -translate-y-1/2 opacity-60"
+             frameborder="0"
+             allow="autoplay; fullscreen"
+             allowfullscreen
+           ></iframe>
            <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent"></div>
         </div>
 
@@ -282,10 +279,10 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Service Cards -->
                 <div class="fade-in delay-0 group relative aspect-square overflow-hidden bg-zinc-100 rounded-2xl cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&q=80&w=600" alt="Pool Remodeling" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
+                    <img src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&q=80&w=600" alt="New Construction Pools & Spas" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
                     <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-100"></div>
                     <div class="absolute bottom-6 left-6 right-6 flex items-center justify-between">
-                        <h3 class="text-white font-medium text-lg">Pool Remodeling</h3>
+                        <h3 class="text-white font-medium text-lg">New Construction Pools & Spas</h3>
                         <div class="w-8 h-8 rounded-full bg-white/20 backdrop-blur flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-x-4 group-hover:translate-x-0">
                             <i data-lucide="chevron-right" class="w-4 h-4"></i>
                         </div>
@@ -293,10 +290,10 @@
                 </div>
                 
                 <div class="fade-in delay-50 group relative aspect-square overflow-hidden bg-zinc-100 rounded-2xl cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&q=80&w=600" alt="New Pool Design" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
+                    <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&q=80&w=600" alt="Remodeling Services" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
                     <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-100"></div>
                     <div class="absolute bottom-6 left-6 right-6 flex items-center justify-between">
-                        <h3 class="text-white font-medium text-lg">New Pool Design</h3>
+                        <h3 class="text-white font-medium text-lg">Remodeling Services</h3>
                         <div class="w-8 h-8 rounded-full bg-white/20 backdrop-blur flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-x-4 group-hover:translate-x-0">
                             <i data-lucide="chevron-right" class="w-4 h-4"></i>
                         </div>
@@ -304,28 +301,6 @@
                 </div>
 
                 <div class="fade-in delay-100 group relative aspect-square overflow-hidden bg-zinc-100 rounded-2xl cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1628624747186-a941c476b7ef?auto=format&fit=crop&q=80&w=600" alt="Baja Shelves & Spas" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
-                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-100"></div>
-                    <div class="absolute bottom-6 left-6 right-6 flex items-center justify-between">
-                        <h3 class="text-white font-medium text-lg">Baja Shelves & Spas</h3>
-                        <div class="w-8 h-8 rounded-full bg-white/20 backdrop-blur flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-x-4 group-hover:translate-x-0">
-                            <i data-lucide="chevron-right" class="w-4 h-4"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="fade-in delay-150 group relative aspect-square overflow-hidden bg-zinc-100 rounded-2xl cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1510006851064-e6056cd0e3a8?auto=format&fit=crop&q=80&w=600" alt="Water & Fire Features" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
-                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-100"></div>
-                    <div class="absolute bottom-6 left-6 right-6 flex items-center justify-between">
-                        <h3 class="text-white font-medium text-lg">Water & Fire Features</h3>
-                        <div class="w-8 h-8 rounded-full bg-white/20 backdrop-blur flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-x-4 group-hover:translate-x-0">
-                            <i data-lucide="chevron-right" class="w-4 h-4"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="fade-in delay-200 group relative aspect-square overflow-hidden bg-zinc-100 rounded-2xl cursor-pointer">
                     <img src="https://images.unsplash.com/photo-1558000143-a78b8712a8a0?auto=format&fit=crop&q=80&w=600" alt="Outdoor Kitchens" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
                     <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-100"></div>
                     <div class="absolute bottom-6 left-6 right-6 flex items-center justify-between">
@@ -336,33 +311,11 @@
                     </div>
                 </div>
 
-                <div class="fade-in delay-300 group relative aspect-square overflow-hidden bg-zinc-100 rounded-2xl cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80&w=600" alt="Pool Lighting" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
+                <div class="fade-in delay-150 group relative aspect-square overflow-hidden bg-zinc-100 rounded-2xl cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1510006851064-e6056cd0e3a8?auto=format&fit=crop&q=80&w=600" alt="3D Design, Plans & Engineering" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
                     <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-100"></div>
                     <div class="absolute bottom-6 left-6 right-6 flex items-center justify-between">
-                        <h3 class="text-white font-medium text-lg">Pool Lighting</h3>
-                        <div class="w-8 h-8 rounded-full bg-white/20 backdrop-blur flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-x-4 group-hover:translate-x-0">
-                            <i data-lucide="chevron-right" class="w-4 h-4"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="fade-in delay-450 group relative aspect-square overflow-hidden bg-zinc-100 rounded-2xl cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=600" alt="Modern Hardscaping" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
-                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-100"></div>
-                    <div class="absolute bottom-6 left-6 right-6 flex items-center justify-between">
-                        <h3 class="text-white font-medium text-lg">Modern Hardscaping</h3>
-                        <div class="w-8 h-8 rounded-full bg-white/20 backdrop-blur flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-x-4 group-hover:translate-x-0">
-                            <i data-lucide="chevron-right" class="w-4 h-4"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="fade-in delay-450 group relative aspect-square overflow-hidden bg-zinc-100 rounded-2xl cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=600" alt="Smart Automation" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
-                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-100"></div>
-                    <div class="absolute bottom-6 left-6 right-6 flex items-center justify-between">
-                        <h3 class="text-white font-medium text-lg">Smart Automation</h3>
+                        <h3 class="text-white font-medium text-lg">3D Design, Plans & Engineering</h3>
                         <div class="w-8 h-8 rounded-full bg-white/20 backdrop-blur flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-x-4 group-hover:translate-x-0">
                             <i data-lucide="chevron-right" class="w-4 h-4"></i>
                         </div>
